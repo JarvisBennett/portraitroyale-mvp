@@ -95,9 +95,16 @@ export default function UploadPage() {
               Royal Portrait
             </span>
           </h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 mb-4 max-w-3xl mx-auto">
             Upload your photos and watch our AI transform them into Renaissance royalty
           </p>
+          
+          {/* Free Preview Notice */}
+          <div className="text-center mb-8">
+            <p className="text-lg text-gold-light font-medium">
+              Free Preview · No credit card or registration required
+            </p>
+          </div>
 
           {/* Category Toggle */}
           <div className="flex justify-center space-x-6 mb-12">

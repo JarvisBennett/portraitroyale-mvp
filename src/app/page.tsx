@@ -37,7 +37,7 @@ export default function Home() {
             using cutting-edge AI technology. Fit for kings, queens, and their faithful companions.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Link 
               href="/upload"
               className="inline-flex items-center space-x-3 bg-gold text-black px-10 py-5 rounded-full font-semibold text-lg hover:bg-gold-light transform hover:scale-105 transition-all duration-300 shadow-2xl"
@@ -46,6 +46,13 @@ export default function Home() {
               <span>Create Your Portrait</span>
               <ArrowRight className="h-4 w-4" />
             </Link>
+          </div>
+
+          {/* Free Preview Notice */}
+          <div className="text-center mb-16">
+            <p className="text-lg text-gold-light font-medium">
+              Free Preview · No credit card or registration required
+            </p>
           </div>
 
           {/* Trust Indicators */}
@@ -270,7 +277,7 @@ export default function Home() {
           </Link>
 
           <p className="text-gray-400 mt-8 text-lg">
-            ✨ Ready in minutes • 🛡️ Satisfaction guaranteed • 👑 Museum-quality results
+            ✨ Ready in minutes • 🆓 Free preview first • 🛡️ Satisfaction guaranteed • 👑 Museum-quality results
           </p>
         </div>
       </section>
